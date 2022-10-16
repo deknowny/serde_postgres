@@ -7,7 +7,7 @@ use serde::de::{
     value::SeqDeserializer
 };
 
-use tokio_postgres::row::Row;
+use tokio_postgres::Row;
 use error::{Error, Result};
 
 /// A structure that deserialize Postgres rows into Rust values.
